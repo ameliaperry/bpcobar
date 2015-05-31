@@ -1,0 +1,15 @@
+# binaries and environment
+bin/
+bpcobar.jar
+*.zip
+
+# environment
+lib/
+
+# temporary vim files
+*.swp
+
+# publishing files
+stage/
+publish
+
