@@ -1,7 +1,11 @@
 # bpcobar
 
-Short and simple: given an element $x$ in the cobar complex for $BP_* BP$, this program computes $\mathrm{d}x$.
-For example: fire up the program and enter `v2 [t1^2 t2 | t3] + v3`, and you should see
+Short and simple: given an element x in the cobar complex for BP_* BP, this program computes the coboundary dx.
+For example: fire up the program and enter
+
+    v2 [t1^2 t2 | t3] + v3
+    
+and you should see:
 
     -16 [ t1^7 ]
      + -4 [ t1t2^2 ]
@@ -10,18 +14,18 @@ For example: fire up the program and enter `v2 [t1^2 t2 | t3] + v3`, and you sho
      + -1 v1 [ t2^2 ]
      + ... <61 more lines>
 
-This program was written very quickly during collaborative computations sessions with Michael Andrews. It's not at all a polished program at this stage. If there are features or refinements that would be useful to see here, get in touch!
+This program was written very quickly during collaborative computation sessions with Michael Andrews. It's not at all a polished program at this stage. If there are features or refinements that would be useful to see here, get in touch!
 
 
 # How to use
 
-Running the program requires only the file `bpcobar.jar`, available at 
+Running the program requires only a single `jar` file, available at 
 
 http://willperry.me/downloads/bpcobar-latest.jar
 
 You'll want to run it from the command-line, e.g. by
     
-    java -jar bpcobar.jar
+    java -jar bpcobar-latest.jar
 
 
 
